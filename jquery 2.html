@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/jquery 2.css">
+		<script src="JS/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<div class="main_header">
+			<div class="container">
+				<div class="LR">
+					<a class="nav_bar_e3" href="Registeration.html">REGISTERATION</a>
+					<a class="nav_bar_e3" href="login.html">LOGIN</a>
+				</div>
+				<div class="nav-element">
+					<a class="nav_bar_e2" href="Home.html">HOME</a>
+					<a class="nav_bar_e1" href="Courses.html">COURSES</a>
+					<a class="nav_bar_e2" href="about.html">ABOUT</a>
+					<a class="nav_bar_e2" href="Contact Us.htm">CONTACT US!</a>
+				</div>
+				<div style="clear:both;">
+					<img src="img/Logo.png" alt="Learning" title="Logo" style="width:390px;height:250px;margin-top:60px;">
+				</div>
+				<div class="nav">
+					<a class="nav_bar_e4" style="margin-left: 30px;" href="HTML 1.html">HTML</a>
+					<a class="nav_bar_e4" href="Css 1.html">CSS</a>
+					<a class="nav_bar_e4" href="JS 1.html">JavaScript</a>
+					<a class="nav_bar_e5" style="color: #f6b541;" href="jquery 1.html">JQuery</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="navbar">
+				<ul>
+					<li><a href="jquery 1.html">Lesson 1</a></li>
+					<li><a class="active" href="#">Lesson 2</a></li>
+					<li><a href="#">Lesson 3</a></li>
+				</ul>    
+			</div>
+			<div id="frist_topic">
+				<div class="video">
+					<video controls>
+						<source src="video/Stop function.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="explain">
+					<p class="video_name">(Stop event)</p>
+					<p class="some_talking" id="some_talking" onMouseOver="leftColorOn();" onMouseOut="leftColorOff();">
+						we use it to stop an event for example:- slideUp, slideDown and this can be useful when to stop the movement of
+						something when you click on it and when you do any event it’s up to you and it depends on the event you select.
+					</p>
+				</div>
+				<div class="example">
+					<h2>Example</h2>
+					<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;Task 1&lt;/title&gt;
+		&lt;script src="jquery-3.3.1.js"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;button id="btn1" style="display: block;width: 100%;height: 100px;margin-bottom: 30px;"&gt;Play&lt;/button&gt;
+		&lt;button id="btn2" style="display: block;width: 100%;height: 100px;margin-bottom: 30px;"&gt;Stop&lt;/button&gt;
+		&lt;div style="text-align: center;width: 300px;height: 600px;margin: 0px auto;border: 3px solid;background-color: #ddd;"&gt;
+			This div
+		&lt;/div&gt;
+		&lt;script&gt;
+			$("#btn1").click(function() {
+				$("div").slideUp(5000);
+			});
+			$("#btn2").click(function() {
+				$("div").stop();
+			});
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;		</pre>
+					<button id="btn1">Show result of code</button>
+					<button id="btn2">Hide result of code</button>
+					<div id="result_of_code">
+						<img src="img/down.png">
+						<iframe id="iframe" src="Stop function example.html" onMouseOver="shadow();" onMouseOut="noShadow();"></iframe>
+					</div>
+				</div>
+			</div>
+			<a id="next_topic" href="#">Next</a>
+		</div>
+		<div style="background-image: url(img/background.jpg);width: 100%;height: 230px;margin-top: 30px;clear: both;">
+			<div class="container">
+				<div style="margin-left: 480px;height: auto;">
+					<a href="http://www.Facebook.com" style="text-decoration: none;">
+						<img src="img/Facebook.png" alt="Facebook" style="width: 60px;height: 60px;margin-right: 20px;margin-top: 60px;">
+					</a>
+					<a href="http://www.youtube.com" style="text-decoration: none;">
+						<img src="img/Youtube.png" alt="Youtube" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.instagram.com" style="text-decoration: none;">
+						<img src="img/Instagram.png" alt="Instagram" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.twitter.com" style="text-decoration: none;">
+						<img src="img/Twitter.png" alt="Twitter" style="width: 60px;height: 60px;">
+					</a>
+				</div>
+				<div style="margin-top: 50px;margin-left: 410px;">
+					<a href="Home.html" style="text-decoration: none;margin: 20px;color: #fff;">HOME</a>
+					<a href="Courses.html" style="text-decoration: none;margin: 20px;color: #fff;">COURSES</a>
+					<a href="Contact Us.htm" style="text-decoration: none;margin: 20px;color: #fff;">CONTACT US!</a>
+					<a href="about.html" style="text-decoration: none;margin: 20px;color: #fff;">ABOUT</a>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%;background-color: #f6b541;display: inline-block; height: 50px;text-align: center;">
+			<div class="container">
+				<pre style="font-size: 20px;margin-top: 15px;">&copy;2018 MAS. All rights reserved.</pre>
+			</div>
+		</div>
+		<script src="JS/jquery 2.js"></script>
+	</body>
+</html>

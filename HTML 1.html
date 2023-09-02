@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style/HTML 1.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Learning - Web Design</title>
+	</head>
+		<body>
+		<div class="body">
+		<div class="main_header">
+			<div class="container">
+				<!--Navigation Bar right and left-->
+				<div class="LR">
+					<a class="nav_bar_e3" href="Registeration.html">REGISTERATION</a>
+					<a class="nav_bar_e3" href="login.html">LOGIN</a>
+				</div>
+				<div class="nav-element">
+					<a class="nav_bar_e2" href="home.html">HOME</a>
+					<a class="nav_bar_e1" href="Courses.html">COURSES</a>
+					<a class="nav_bar_e2" href="about.html">ABOUT</a>
+					<a class="nav_bar_e2" href="Contact Us.htm">CONTACT US!</a>
+				</div>
+				<div style="clear:both;">
+					<img src="img/Logo.png" alt="Learning" title="Logo" style="width:390px;height:250px;margin-top:60px;">
+				</div>
+				<div class="nav">
+					<a class="nav_bar_e5">HTML</a>
+					<a class="nav_bar_e4" href="Css 1.html">CSS</a>
+					<a class="nav_bar_e4" href="JS 1.html">JavaScript</a>
+					<a class="nav_bar_e4" href="jquery 1.html">JQuery</a>
+				</div>
+			</div>
+		</div>
+		<!--Container of the whole content we have-->
+			<div class="container" style="margin-top: 40px;">
+				<div class="div-img"><img class="introduction-img" src="img/Introduction.png"></div>
+				<div class="left"><!--Left side of the page, contains the summaries and options of the lessons and content lists-->
+					<details open class="details">
+						<summary class="summaries">HTML Lesson 1</summary>
+						<option class="options" id="active">1.Introduction</option>
+						<a href="HTML 2.html"><option class="options">2.Elements,Attributes,Headings</option></a>
+						<option class="options">3.Paragraphs,Style,Format</option>
+						<option class="fitem">4.Quotations,Comments,Colors</option>
+					</details>
+					<details class="details">
+						<summary class="summaries">HTML Lesson 2</summary>
+						<option class="options">1.CSS and Links</option>
+						<option class="options">2.Images, Tables, Lists</option>
+						<option class="fitem">3.Blocks, Classes, IDs</option>
+					</details>
+					<details class="details">
+						<summary class="summaries">HTML Lesson 3</summary>
+						<option class="options">1.IFrames</option>
+						<option class="options">2.JavaScript</option>
+						<option class="fitem">3.File Paths and Heads</option>
+					</details>
+					<details class="details">
+						<summary class="summaries">HTML Lesson 4</summary>
+						<option class="options">1.Layout,Responsive</option>
+						<option class="options">2.Computercode,Entities</option>
+						<option class="fitem">3.Symbols,Charset,URL Encode</option>
+					</details>
+				</div>
+				<!--Here is the button made by Javascript in order to show some extra content due to read more-->
+				<div class="page">
+					<p class="paragraph1" id="hideP" style="width:1145px;font-size:large;">
+						Hello And Welcome to our web design course through out this course we will go through HTML, CSS , Javascript and JQuery. These are your tools for web designing that will be used throughout this course.
+					</p>
+					<p class="paragraph1" id="showP" style="display: none;width:1145px;font-size:large;">Hello And Welcome to our web design course through out this course we will go through HTML, CSS , Javascript and JQuery. These are your tools for web designing that will be used throughout this course.<br> Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. The term web design is normally used to describe the design process relating to the front-end (client side) design of a website including writing mark up. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and if their role involves creating mark up then they are also expected to be up to date with web accessibility guidelines.Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document. HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as "img" and "input" directly introduce content into the page. Other tags such as "p"..."/p" surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.HTML can embed programs written in a scripting language such as JavaScript which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.
+					</p>
+					<a class="page-a" href="javascript: showP()" id="hideA"><!--Javascript Reference in the link of the a tag-->
+						<button class="button" style="margin-left: 100px;">
+							<i class="fa fa-paperclip" style="margin-right: 5px;"></i>Read More...<!--Font Awesome Button-->
+						</button>
+					</a>
+					<div class="video"><!-- Video part, Links doesnt work-->
+						<p class="paragraph2" style="font-size:larger;">
+							Watch This introuductory video to understand what web design is built on and what can you do in the near future!.
+						</p>
+						<center>
+							<video poster="img/Logo.png" class="videos" controls width="733px" height="366.5">
+								<source src="video/HTML 1.mp4">
+							</video>
+						</center>
+					</div>
+					<div><center><a href="HTML 2.html"><button class="finalbutton">Start the course!</button></a></center></div>
+				</div>
+			</div>
+		</div>
+		<script src="JS/HTML 1.js"></script><!--Javascript sources-->
+		<!--Start of Footer-->
+		<div style="background-image: url(img/background.jpg);width: 100%;height: 230px;margin-top: 30px;clear: both;">
+			<div class="container">
+				<div style="margin-left: 480px;height: auto;">
+					<a href="http://www.Facebook.com" style="text-decoration: none;">
+						<img src="img/Facebook.png" alt="Facebook" style="width: 60px;height: 60px;margin-right: 20px;margin-top: 60px;">
+					</a>
+					<a href="http://www.youtube.com" style="text-decoration: none;">
+						<img src="img/Youtube.png" alt="Youtube" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.instagram.com" style="text-decoration: none;">
+						<img src="img/Instagram.png" alt="Instagram" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.twitter.com" style="text-decoration: none;">
+						<img src="img/Twitter.png" alt="Twitter" style="width: 60px;height: 60px;">
+					</a>
+				</div>
+				<div style="margin-top: 50px;margin-left: 410px;">
+					<a href="home.html" style="text-decoration: none;margin: 20px;color: #fff;">HOME</a>
+					<a href="Courses.html" style="text-decoration: none;margin: 20px;color: #fff;">COURSES</a>
+					<a href="Contact Us.htm" style="text-decoration: none;margin: 20px;color: #fff;">CONTACT US!</a>
+					<a href="about.html" style="text-decoration: none;margin: 20px;color: #fff;">ABOUT</a>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%;background-color: #f6b541;display: inline-block; height: 50px;text-align: center;">
+			<div class="container">
+				<pre style="font-size: 20px;margin-top: 15px;">&copy;2018 MAS. All rights reserved.</pre>
+			</div>
+		</div>
+			<!--End of Footer-->
+		</div>
+	</body>
+</html>

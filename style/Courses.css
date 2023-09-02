@@ -1,0 +1,146 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+	background-image: url('../img/background.jpg');
+}
+.container{
+    width: 1300px;
+	margin: 0px auto;
+}
+.main_header{
+	height: 350px;
+	width: 100%;
+}
+.nav-element{
+	float: left;
+	margin: 0px;
+	margin-top: 10px;
+}
+.nav_bar_e1 , .nav_bar_e2{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 25px;
+    padding: 10px 8px 6px 2px;
+	color: white;
+}
+.nav_bar_e1{
+	color: #f6b541;
+}
+.nav_bar_e2:hover{
+	border-bottom: 2px solid #f6b541;
+	border-radius: 6px;
+}
+.LR{
+	float: right;
+	margin: 0px;
+	margin-top: 10px;
+}
+.nav_bar_e3{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 25px;
+    padding: 10px 8px 6px 2px;
+	color: white;
+}
+.nav_bar_e3:hover{
+	border-bottom: 2px solid #f6b541;
+	border-radius: 6px;
+}
+p{
+	color: white;
+}
+div #header{
+    padding: 10px;
+    color: black;
+    background-color: #f6b541;
+	text-align: center;
+	border-radius: 12px;
+}
+div .content {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f6b541;
+	border-radius:10px;
+}
+div .article {
+    margin: 5px;
+    padding: 70px;
+	background-image: url("../img/background2.jpg");
+	border-radius:20px;
+}
+div #menu ul {
+     padding-top: 0px;
+     padding-bottom: 40px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+div #menu ul li {
+    display: inline;
+    margin: 1px;
+	background-color: #500;
+}
+div #menu {
+	overflow: hidden;
+	background-image: url("../img/background3.jpg");
+	border-radius: 12px;
+}
+div #menu a{
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+div #menu a:hover {
+    background-color: #fff;
+    color: black;
+}
+div .bord {
+	border: 15px solid transparent;
+    padding: 5px;
+    border-image-source: url("../img/Courses 123.png");
+    border-image-repeat: stretch;    
+    border-image-slice: 50;
+	margin-bottom: 22px;
+}
+.slider {
+	margin: auto;
+	width: 400px;
+	overflow: hidden;
+	padding: 0px;
+}
+.slider ul {
+	list-style: none;
+	width: 2000px;
+	padding: 0px;
+	position: relative;
+	animation: sliding 12s ease-in-out infinite;
+}
+.slider ul li {
+	float: left;
+	position: relative;
+}
+.slider ul h5 {
+	background-color: #333;
+	padding: 2px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	margin: 0px;
+	bottom: 0px;
+}
+.slider ul:hover {
+	animation-play-state: paused;
+}
+@keyframes sliding {
+	5%,10%{left:0}
+	15%,30%{left: -400px;}
+	35%,50%{left: -800px;}
+	55%,70%{left: -1200px;}
+}

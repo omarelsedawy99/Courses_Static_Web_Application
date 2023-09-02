@@ -1,0 +1,150 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width:1300px;
+	margin: 0px auto;
+	padding: 0px;
+}
+.main_header{
+	background-image: url(../img/background.jpg);
+	height: 430px;
+	width: 100%;
+}
+.nav-element{
+	float: left;
+	margin: 0px;
+	margin-top: 10px;
+}
+.nav_bar_e1 , .nav_bar_e2{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 25px;
+    padding: 10px 8px 6px 2px;
+	color: white;
+}
+.nav_bar_e1{
+	color: #f6b541;
+}
+.nav_bar_e2:hover{
+	border-bottom: 2px solid #f6b541;
+	border-radius: 6px;
+}
+.LR{
+	float: right;
+	margin: 0px;
+	margin-top: 10px;
+}
+.nav_bar_e3{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 25px;
+    padding: 10px 8px 6px 2px;
+	color: white;
+}
+.nav_bar_e3:hover{
+	border-bottom: 2px solid #f6b541;
+	border-radius: 6px;
+}
+.nav {
+	margin-top: 25px;
+}
+.nav a {
+	margin-right: 30px;
+	color: #fff;
+	text-decoration: none;
+	padding: 0px 8px 6px 2px;
+}
+.nav_bar_e4:hover {
+	color: #fff;
+	border-bottom: 2px solid rgb(246, 181, 65);
+	border-radius: 6px;
+}
+.h1{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 50px;
+}
+	/*all tables*/
+table ,tr ,th ,td{
+	margin: 0px;
+	padding: 0px;
+	border: 5px solid #f6b541;
+	border-radius: 15px;
+	color: black;
+}
+td:hover{
+	color: rgb(260,260,260);
+	background:rgba(0, 0, 0, 0.8);
+}
+tr , th , td {
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+	/* 1st table */
+#Arithmetic_Operators{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+#Arithmetic_Operators table{
+	margin: 0px;
+	padding: 0px;
+	width: 500px;
+	height: 200px;
+}
+	/* 2d table */
+#Assignment_Operators {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 30px;
+}
+#Assignment_Operators table{
+	margin: 0px;
+	padding: 0px;
+	width: 500px;
+	height: 240px;
+}
+	/* 3th table */
+#Comparison_Operators{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#Comparison_Operators table{
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+}
+	/* 4th table */
+#Logical_Operators {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+#Logical_Operators table{
+	margin: 0px;
+	padding: 0px;
+	width: 500px;
+}
+	/* 5th table */
+#Type_Operators table{
+	margin: 0px;
+	padding: 0px;
+	width: 500px;
+}
+	/* 5th table */
+#Bitwise_Operators{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#Bitwise_Operators table{
+	margin: 0px;
+	padding: 0px;
+	width: 1300px;
+}

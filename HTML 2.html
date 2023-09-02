@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style/HTML 2.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Learning - HTML</title>
+	</head>
+	<body>
+		<div class="body">
+			<div class="main_header">
+				<div class="container">
+					<div class="LR">
+						<a class="nav_bar_e3" href="Registeration.html">REGISTERATION</a>
+						<a class="nav_bar_e3" href="login.html">LOGIN</a>
+					</div>
+					<div class="nav-element">
+						<a class="nav_bar_e2" href="home.html">HOME</a>
+						<a class="nav_bar_e1" href="Courses.html">COURSES</a>
+						<a class="nav_bar_e2" href="about.html">ABOUT</a>
+						<a class="nav_bar_e2" href="Contact Us.htm">CONTACT US!</a>
+					</div>
+					<div style="clear:both;">
+						<img src="img/Logo.png" alt="Learning" title="Logo" style="width:390px;height:250px;margin-top:60px;">
+					</div>
+					<div class="nav">
+						<a class="nav_bar_e5">HTML</a>
+						<a href="Css 1.html" class="nav_bar_e4">CSS</a>
+						<a href="JS 1.html" class="nav_bar_e4">JavaScript</a>
+						<a href="jquery 1.html" class="nav_bar_e4">JQuery</a>
+					</div>
+				</div>
+			</div>
+			<!--Container of the whole content we have-->
+			<div class="container" style="margin-top: 40px;">
+				<a href="HTML 1.html">
+					<button class="button" style="float:left;">Back</button>
+				</a>
+				<a style="text-decoration: none;color: #F6B541;" href="Registeration.html" target="_blank">
+					<button onclick="alert('Register for more!');" class="button" style="float:right;">Next</button>
+				</a>
+				<div>
+					<center>
+						<img src="img/HTML 5.png" style="width:200px;height: 200px;">
+					</center>
+					<center>
+						<h1 class="header">HTML Elements,Attributes and Headings.</h1>
+					</center>
+				</div>
+				<div class="page">
+					<div class="content-view">
+						<p class="titles">HTML Documents</p><!--Title-->
+						<img class="images" src="img/HTML 2-1.png" align="right"><!--Images floated to right so it is not responsible for any borders or content in the page-->
+						<p class="content">
+							All HTML documents must start with a document type declaration:
+							<code>&lt;!DOCTYPE html&gt;</code>.
+							<br><br>The HTML document itself begins with
+							<code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code>.
+							<br><br>The visible part of the HTML document is between
+							<code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>.
+							<br><br><br>
+							<br>
+							<br>
+						</p>
+					</div>
+					<div class="content-view">
+						<p class="titles">HTML Headings</p><!--Title-->
+							<img style="width: 550px;height: 300px;margin-right: 15px;" src="img/HTML 2-2.jpg" align="right">
+						<p class="content">
+							HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt; </code> tags.
+							<br><br>
+							<code>&lt;h1&gt;</code> defines the most important heading. <code>&lt;h6&gt; </code> defines the least important heading: 
+							<br><br>
+							<p class="Examples">Example:</p>
+							<code>
+								&lt;h1&gt;<h1>This is heading 1</h1>&lt;/h1&gt;<br>&lt;h2&gt;<h2>This is heading 2</h2>&lt;/h2&gt;<br>&lt;h3&gt;<h3>This is heading 3</h3>&lt;/h3&gt;<br>
+							</code>
+							<br>
+							<br>
+							<br>
+						</p>
+					</div>
+					<div class="content-view">
+						<p class="titles">HTML Paragraphs</p>
+						<img style="width: 500px;height: 220px;margin-right: 15px;" src="img/HTML 2-3.gif" align="right">
+						<p class="content">
+							HTML paragraphs are defined with the <code>&lt;p&gt;</code> tag:<br>
+							<p class="Examples">Example:</p>
+							<code>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>&lt;p&gt;This is another paragraph.&lt;/p&gt; </code>
+						</p>
+						<br><br><br><br><br>
+						<br><br><br>
+					</div>
+					<div class="content-view">
+						<p class="titles">
+							HTML Links
+						</p><!--Title-->
+							<img style="width: 500px;height: 220px;margin-right: 15px;" src="img/HTML 2-4.jpg" align="right">
+						<p class="content">HTML links are defined with the <code>&lt;a&gt;</code> tag:</p>
+						<p class="Examples">Example:</p>
+						<p class="content">
+							<code>&lt;a href="https://www.w3schools.com"&gt;This is a link&lt;/a&gt;</code>
+						</p>
+						<p class="content">
+							The link's destination is specified in the href attribute.
+							<br>Attributes are used to provide additional information about HTML elements.
+							<br>You will learn more about attributes in a later chapter.
+						</p>
+						<br><br><br><br><br><br>
+					</div>
+					<div class="content-view">
+						<p class="titles">HTML Images</p><!--Title-->
+						<p class="content">
+							HTML images are defined with the <code>&lt;img&gt;</code> tag.<br>The source file (src), alternative text (alt), width, and height are provided as attributes:
+						</p>
+						<p class="Examples">Example:</p>
+						<p class="content">
+							<code>&lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt;</code>
+						</p>
+						<br>
+					</div>
+					<div class="content-view">
+						<p class="titles">HTML Buttons</p><!--Title-->
+						<p class="content"> HTML buttons are defined with the <code>&lt;button&gt;</code> tag:</p>
+						<p class="Examples">Example:</p>
+						<p class="content">
+							<code>&lt;button&gt;Click me&lt;/button&gt;</code>
+						</p>
+						<br>
+					</div>
+					<div class="content-view">
+						<p class="titles">HTML Lists</p><!--Title-->	
+						<p class="content">
+							HTML lists are defined with the <code>&lt;ul&gt;</code> (unordered/bullet list) or the <code>&lt;ol&gt;	</code> (ordered/numbered list) tag, followed by <code>&lt;li&gt;</code> tags (list items):
+						</p>
+						<p class="Examples">Example:</p>
+						<p class="content">
+							<code>&lt;ul&gt;<br>&lt;li&gt;Coffee&lt;/li&gt;<br>&lt;li&gt;Tea&lt;/li&gt;<br>&lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;</code>
+						</p>
+					</div>
+					<div class="content-view">
+						<p class="titles">HTML Elements</p><!--Title-->
+						<p class="content">
+							An HTML element usually consists of a <b>start</b> tag and <b>end</b> tag, with the content inserted in between:<br>
+							<code>&lt;tagname&gt;</code>Content goes here...<code>&lt;/tagname&gt;</code><br>The HTML element is everything from the start tag to the end tag:<br><br>
+							<code>&lt;p&gt;My first paragraph.&lt;/p&gt;</code>
+						</p>
+						<p class="Examples">Example:</p>
+						<!--Start of Table-->
+						<table style="border:solid black 2px;text-align:center;margin-bottom: 15px;margin-left:15px;border-collapse:collapse;">
+							<tr style="border:solid black 2px;border-collapse:collapse;">
+								<th style="width:33%;border:solid black 2px;border-collapse:collapse;">Start tag</th>
+								<th style="width:33%;border:solid black 2px;border-collapse:collapse;">Element content</th>
+								<th style="border:solid black 2px;border-collapse:collapse;">End tag</th>
+							</tr>
+							<tr style="border:solid black 2px;border-collapse:collapse;">
+								<td style="border:solid black 2px;border-collapse:collapse;"><code>&lt;h1&gt;</code></td>
+								<td style="border:solid black 2px;border-collapse:collapse;">My First Heading</td>
+								<td style="border:solid black 2px;border-collapse:collapse;"><code>&lt;/h1&gt;</code></td>
+							</tr>
+							<tr style="border:solid black 2px;border-collapse:collapse;">
+								<td style="border:solid black 2px;border-collapse:collapse;"><code>&lt;p&gt;</code></td>
+								<td style="border:solid black 2px;border-collapse:collapse;">My first paragraph.</td>
+								<td style="border:solid black 2px;border-collapse:collapse;"	><code>&lt;/p&gt;</code></td>
+							</tr>
+							<tr style="border:solid black 2px;border-collapse:collapse;">
+								<td style="border:solid black 2px;border-collapse:collapse;"><code>&lt;br&gt;</code></td>
+								<td style="border:solid black 2px;border-collapse:collapse;">&nbsp;</td>
+								<td style="border:solid black 2px;border-collapse:collapse;">&nbsp;</td>
+							</tr>
+						</table>
+						<!--End of Table-->
+					</div>
+					<div class="content-view">
+						<p class="titles">Nested HTML Elements</p>
+						<p class="content">
+							HTML elements can be nested (elements can contain elements).<br>All HTML documents consist of nested HTML elements.<br>This example contains four HTML elements:
+						</p>
+						<p class="Examples">Example:</p>
+						<p class="content">
+							<code>
+								&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;body&gt;<br>&lt;h1&gt;My First Heading&lt;/h1&gt;<br>
+								&lt;p&gt;My first paragraph.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+							</code>
+						</p>
+					</div>
+					<div class="content-view">
+						<p class="titles">Tag along and Watch this video and go through with the instructor to verify you understood the lesson!.</p>
+						<center>
+							<video style="border-bottom:2px solid #ccc" poster="img/HTML 5.png" class="videos" controls height="480" width="720">
+								<source src="video/HTML 2-1.mp4">
+							</video>
+							<video poster="img/HTML 5.png" class="videos" controls height="480" width="720">
+								<source src="video/HTML 2-2.mp4">
+							</video>
+						</center>
+					</div>
+				</div>
+				<a href="HTML 1.html">
+					<button class="button" style="margin-top:30px;margin-bottom:30px;float:left;">Back</button>
+				</a>
+				<a style="text-decoration: none;color: #F6B541;" href="Registeration.html" target="_blank">
+					<button onclick="alert('Register for more!');" class="button" style="margin-top:30px;margin-bottom:30px;float:right;">Next</button>
+				</a>
+			</div>
+		</div>
+		<!-- Start of Footer-->
+		<div style="background-image: url(img/background.jpg);width: 100%;height: 230px;margin-top: 30px;clear: both;">
+			<div class="container">
+				<div style="margin-left: 480px;height: auto;">
+					<a href="http://www.Facebook.com" style="text-decoration: none;">
+						<img src="img/Facebook.png" alt="Facebook" style="width: 60px;height: 60px;margin-right: 20px;margin-top: 60px;">
+					</a>
+					<a href="http://www.youtube.com" style="text-decoration: none;">
+						<img src="img/Youtube.png" alt="Youtube" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.instagram.com" style="text-decoration: none;">
+						<img src="img/Instagram.png" alt="Instagram" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.twitter.com" style="text-decoration: none;">
+						<img src="img/Twitter.png" alt="Twitter" style="width: 60px;height: 60px;">
+					</a>
+				</div>
+				<div style="margin-top: 50px;margin-left: 410px;">
+					<a href="home.html" style="text-decoration: none;margin: 20px;color: #fff;">HOME</a>
+					<a href="Courses.html" style="text-decoration: none;margin: 20px;color: #fff;">COURSES</a>
+					<a href="Contact Us.htm" style="text-decoration: none;margin: 20px;color: #fff;">CONTACT US!</a>
+					<a href="about.html" style="text-decoration: none;margin: 20px;color: #fff;">ABOUT</a>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%;background-color: #f6b541;display: inline-block; height: 50px;text-align: center;">
+			<div class="container">
+				<pre style="font-size: 20px;margin-top: 15px;">&copy;2018 MAS. All rights reserved.</pre>
+			</div>
+		</div>
+		<!-- End of Footer-->
+		<script src="JS/HTML 2.js"></script> <!--Javascript sources-->
+	</body>
+</html>

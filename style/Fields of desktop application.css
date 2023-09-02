@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1300px;
+	margin: 0px auto;
+}
+.main_header{
+	background-image: url(../img/background.jpg);
+	height: 350px;
+	width: 100%;
+}
+.nav-element{
+	float: left;
+	margin: 0px;
+	margin-top: 10px;
+}
+.nav_bar_e1 , .nav_bar_e2{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 25px;
+    padding: 10px 8px 6px 2px;
+	color: white;
+}
+.nav_bar_e1{
+	color: #f6b541;
+}
+.nav_bar_e2:hover{
+	border-bottom: 2px solid #f6b541;
+	border-radius: 6px;
+}
+.LR{
+	float: right;
+	margin: 0px;
+	margin-top: 10px;
+}
+.nav_bar_e3{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 25px;
+    padding: 10px 8px 6px 2px;
+	color: white;
+}
+.nav_bar_e3:hover{
+	border-bottom: 2px solid #f6b541;
+	border-radius: 6px;
+}
+.python img{
+	display: none;
+	width: 600px;
+	height: 450px;
+	margin: 10px auto;
+}
+.python img:hover{
+	width: 750px;
+	height: 600px;
+}
+.python video{
+	display: none;
+	width: 100%;
+	height: 520px;
+	background-color: black;
+	border-radius: 10px;
+}
+.python p{
+	line-height: 30px;
+	font-size: 25px;
+	font-weight: 500;
+	font-style: italic;
+	border: 5px solid #f6b541;
+	padding: 15px;
+	border-radius: 15px;
+}
+.python a{
+	display: block;
+	border: 3px solid;
+	padding: 15px;
+	margin: 10px auto;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: #f6b541;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#python_topic{
+	height: auto;
+	display: none;
+}
+.Csharp{
+	border: 5px solid #f6b541;
+	border-radius: 15px;
+}
+.Csharp img{
+	display: none;
+	width: 600px;
+	height: 450px;
+	margin: 10px auto;
+}
+.Csharp img:hover{
+	width: 750px;
+	height: 600px;
+}
+.Csharp video{
+	display: none;
+	width: 100%;
+	height: 520px;
+	background-color: black;
+	border-radius: 10px;
+}
+.Csharp p{
+	line-height: 30px;
+	font-size: 25px;
+	font-weight: 500;
+	font-style: italic;
+	padding: 15px;
+}
+#Csharp_topic table{
+	width: 95%;
+	margin: 25px auto;
+}
+#Csharp_topic table tr th,#Csharp_topic table tr td{
+	padding: 5px;
+}
+.Csharp a{
+	display: block;
+	width: 92%;
+	border: 3px solid;
+	padding: 15px;
+	margin: 10px auto;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: #f6b541;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#Csharp_topic{
+	height: auto;
+	display: none;
+}

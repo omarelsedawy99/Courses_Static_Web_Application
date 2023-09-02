@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style/CSharp Variables.css">
+		<title>Learning -C# Variables</title>
+        <script src="JS/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<!-- start header -->
+		<div class="main_header">
+			<div class="container">
+				<div class="LR">
+					<a class="nav_bar_e3" href="Registeration.html">REGISTERATION</a>
+					<a class="nav_bar_e3" href="login.html">LOGIN</a>
+				</div>
+				<div class="nav-element">
+					<a class="nav_bar_e2" href="home.html">HOME</a>
+					<a class="nav_bar_e1" href="Courses.html">COURSES</a>
+					<a class="nav_bar_e2" href="about.html">ABOUT</a>
+					<a class="nav_bar_e2" href="Contact Us.htm">CONTACT US!</a>
+				</div>
+				<div style="clear:both;">
+					<img src="img/Logo.png" alt="Learning" title="Logo" style="width:390px;height:250px;margin-top:60px;">
+				</div>
+			</div>
+		</div>
+		<!-- End the header -->    
+		<div class="container">
+			<div class="content">
+				<h1 style="color:#f6B541;">C# Variables</h1>
+				<p class="content-p">
+					A variable is name of memory location. It is used to store data. Its value can be changed and it can be reused many time.
+				</p>
+				<p class="content-p">
+					It is a way to represent memory location through symbol so that it can be easily identified.
+				</p>
+
+				<p class="content-p">
+					The basic variable type available in C# can be categorized as:
+				</p>
+				<video class="videos" controls height="480" width="720">
+					<source src="video/csharp video.mp4">
+				</video>
+				<table border="5px" style="border-color: #F6B541;">
+				  <tr>
+				    <th>Variable Type</th>
+				    <th>Example</th> 
+				  </tr>
+				  <tr class="trs">
+				    <td>Decimal types</td>
+				    <td>decimal</td>
+				  </tr>
+				  <tr class="trs">
+				    <td class="tds">Boolean types</td>
+				    <td class="tds">True or false value, as assigned</td>
+				  </tr>
+				  <tr class="trs">
+				  	<td>Integral types</td>
+				  	<td>int,char,byte,short,long</td>
+				  </tr>
+				  <tr class="trs">
+				  	<td class="tds">Floating point types</td>
+				  	<td class="tds">float and double</td>
+				  </tr>
+				  <tr class="trs">
+				  	<td>Nullable types</td>
+				  	<td>Nullable data types</td>
+				  </tr>
+				</table>
+				<p class="content-p">
+					Let's see the syntax to declare a variable:
+				</p>
+				<div class="example">
+					<p>type variable_list;</p>
+				</div>
+				<p class="content-p">
+					The example of declaring vatiables is given below:
+				</p>
+				<div class="example">
+					<p>
+						<span style="color:blue;">int</span> i,j;<br>
+						<span style="color:blue;">double</span> d;<br>
+						<span style="color:blue;">float</span> f;<br>
+						<span style="color:blue;">char</span> ch;<br>
+					</p>
+				</div>
+				<p class="content-p">
+					We can also probide values while declaring the variables as given below:
+				</p>
+				<div class="example">
+					<p>
+						<span style="color:blue;">int</span> i=2,i=4; <span style="color:green;">//declaring 2 variable of integer type</span><br>
+						<span style="color:blue;">float</span> f=40.2;<br>
+						<span style="color:blue;">char</span> ch=<span style="color:blue;">'B'</span>;<br>
+					</p>
+				</div>
+                <div class="more_content">
+					<h2 class="content_header">Rules for defining variables</h2>    
+					<ul>
+						<li class="content-li">A variable can have alphabets, digits and underscore.</li>
+						<li class="content-li">A variable name can start with alphabet and underscore only. It can't start with digit.</li>
+						<li class="content-li">No white space is allowed within variable name</li>
+						<li class="content-li">A variable name must not be any reserved word or keyword e.g. char, float etc.</li>    
+					</ul>    
+                </div>
+                <button class="content_button1">Test</button>
+			</div>
+		</div>
+		<div style="width: 100%;height: 100%;">
+		<div class="test" >
+                    <p>
+                using System;<br>
+                class BoxingExample<br>
+                {<br>
+                    static void Main()<br>
+                    {<br>
+                        int i = 123;<br>
+                        object o = i;    // Boxing<br>
+                        int j = (int)o;  // Unboxing<br>
+                    }<br>
+                }
+                    </p>
+                    <button class="content_button2" >Back</button>
+		</div>
+		</div>
+		<div class="container">
+			<a id="next" href="Csharp 1.html">Next</a>
+		</div>	
+		<!-- start footer --> 
+		<div style="background-image: url(img/background.jpg);width: 100%;height: 230px;margin-top: 30px;clear: both;">
+			<div class="container">
+				<div style="margin-left: 480px;height: auto;">
+					<a href="http://www.Facebook.com" style="text-decoration: none;">
+						<img src="img/Facebook.png" alt="Facebook" style="width: 60px;height: 60px;margin-right: 20px;margin-top: 60px;">
+					</a>
+					<a href="http://www.youtube.com" style="text-decoration: none;">
+						<img src="img/Youtube.png" alt="Youtube" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.instagram.com" style="text-decoration: none;">
+						<img src="img/Instagram.png" alt="Instagram" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.twitter.com" style="text-decoration: none;">
+						<img src="img/Twitter.png" alt="Twitter" style="width: 60px;height: 60px;">
+					</a>
+				</div>
+				<div style="margin-top: 50px;margin-left: 410px;">
+					<a href="home.html" style="text-decoration: none;margin: 20px;color: #fff;">HOME</a>
+					<a href="Courses.html" style="text-decoration: none;margin: 20px;color: #fff;">COURSES</a>
+					<a href="Contact Us.htm" style="text-decoration: none;margin: 20px;color: #fff;">CONTACT US!</a>
+					<a href="about.html" style="text-decoration: none;margin: 20px;color: #fff;">ABOUT</a>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%;background-color: #f6b541;display: inline-block; height: 50px;text-align: center;">
+			<div class="container">
+				<pre style="font-size: 20px;margin-top: 15px;">&copy;2018 MAS. All rights reserved.</pre>
+			</div>
+		</div>
+		<!-- End Footer -->
+        
+        
+        
+	</body>
+	<script src="JS/CSharp Variables.js"></script>
+</html>

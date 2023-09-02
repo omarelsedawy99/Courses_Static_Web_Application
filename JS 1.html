@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/JS 1.css">
+		<title>JavaScript</title>
+		<link rel="icon" href="JavaScript-logo.png">
+	</head>
+	<body>
+		<div class="main_header">
+			<div class="container">
+				<div class="LR">
+					<a class="nav_bar_e3" href="Registeration.html">REGISTERATION</a>
+					<a class="nav_bar_e3" href="login.html">LOGIN</a>
+				</div>
+				<div class="nav-element">
+					<a class="nav_bar_e2" href="Home.html">HOME</a>
+					<a class="nav_bar_e1" href="Courses.html">COURSES</a>
+					<a class="nav_bar_e2" href="about.html">ABOUT</a>
+					<a class="nav_bar_e2" href="Contact Us.htm">CONTACT US!</a>
+				</div>
+				<div style="clear:both;">
+					<img src="img/Logo.png" alt="Learning" title="Logo" style="width:390px;height:250px;margin-top:60px;">
+				</div>
+				<div class="nav">
+					<a class="nav_bar_e4" style="margin-left: 30px;" href="HTML 1.html">HTML</a>
+					<a class="nav_bar_e4" href="Css 1.html">CSS</a>
+					<a style="color: #f6b541;" href="#">JavaScript</a>
+					<a class="nav_bar_e4" href="jquery 1.html">JQuery</a>
+				</div>
+			</div>
+		</div>
+		<div style="height: 25px;"></div>
+		<div class="body">
+			<div class="container">
+				<div class="sidebar">
+					<ul>
+						<li style="margin-top: 15px;"><a href="#intro">Js Introduction</a></li>
+						<li><a href="#for">Js Loop For</a></li>
+						<li><a href="#while">Js Loop While</a></li>
+					</ul>
+				</div>
+				<div class="info">
+					<pre style="margin: 5px 0px 5px 85px;font-size: 25px;font-weight: bold;">Info.</pre>
+					often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web. It is used to make dynamic webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA. As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded. Initially only implemented client-side in web browsers, JavaScript engines are now embedded in many other types of host software, including server-side in web servers and databases, and in non-web programs such as word processors and PDF software, and in runtime environments that make JavaScript available for writing mobile and desktop applications, including desktop widgets. Although there are strong outward similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design; JavaScript was influenced by programming languages such as Self and Scheme.<br>Server-side JavaScript :- In December 1995, soon after releasing JavaScript for browsers, Netscape introduced an implementation of the language for server-side scripting with Netscape Enterprise Server.Since 1996, the IIS web-server has supported Microsoft's implementation of server-side Javascript -- JScript -- in ASP and .NET pages. Since the mid-2000s, additional server-side JavaScript implementations have been introduced, such as Node.js in 2009.Adoption by Microsoft :-  Microsoft script technologies including VBScript and JScript were released in 1996. JScript, a reverse-engineered implementation of Netscape's JavaScript, was part of Internet Explorer 3. JScript was also available for server-side scripting in Internet Information Server. Internet Explorer 3 also included Microsoft's first support for CSS and various extensions to HTML, but in each case the implementation was noticeably different to that found in Netscape Navigator at the time. These differences made it difficult for designers and programmers to make a single website work well in both browsers, leading to the use of "best viewed in Netscape" and "best viewed in Internet Explorer" logos that characterized these early years of the browser wars. JavaScript began to acquire a reputation for being one of the roadblocks to a cross-platform and standards-driven Web. Some developers took on the difficult task of trying to make their sites work in both major browsers, but many could not afford the time. With the release of Internet Explorer 4, Microsoft introduced the concept of Dynamic HTML, but the differences in language implementations and the different and proprietary Document Object Models remained and were obstacles to widespread take-up of JavaScript on the Web.Later developments :- JavaScript has become one of the most popular programming languages on the Web. Initially, however, many professional programmers denigrated the language because, among other reasons, its target audience consisted of Web authors and other such "amateurs". The advent of Ajax returned JavaScript to the spotlight and brought more professional programming attention. The result was a proliferation of comprehensive frameworks and libraries, improved JavaScript programming practices, and increased usage of JavaScript outside Web browsers, as seen by the proliferation of Server-side JavaScript platforms. In January 2009, the Common JS project was founded with the goal of specifying a common standard library mainly for JavaScript development outside the browser. With the rise of single-page applications and JavaScript-heavy sites, it is increasingly being used as a compile target for source-to-source compilers from both dynamic languages and static languages.
+				</div>
+				<div class="page">
+					<div class="start">
+						<img src="img/JS.png" alt="JavaScript Image" style="border-radius: 20px;">
+						<p>is the programming language of HTML and the Web. JavaScript is easy to learn.
+							sJavaScript is a scripting or programming language that allows you to implement complex things on web pages — every 
+							time a web page does more than just sit there and display static information for you to look at — displaying
+							timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that
+							JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies,
+							two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.
+							JavaScriptand Java are completely different languages, both in concept and design. JavaScript was invented by Brendan Eich in 1995,
+							and became an ECMA standard in 1997. ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+							You can read more about the different JavaScript versions in the chapter JS Versions.
+						</p>
+					</div>
+					<div id="intro" class="intro">
+						<div class="intro-header">
+							<h2>JS Introduction</h2> 
+						</div>
+						<div class="intro-page">
+							<pre><h2>JavaScript Can Change HTML Content</h2>One of many JavaScript HTML methods is getElementById().This example uses the method to "find" an HTML element (with id="demo") and <br>changes the element content (innerHTML) to "Hello JavaScript":<h2>Example</h2>document.getElementById("demo").innerHTML = "Hello JavaScript"; JavaScript accepts both double and single quotes:<h2>Example</h2>document.getElementById('demo').innerHTML = 'Hello JavaScript';<h2>JavaScript Can Change HTML Attributes</h2>This example changes an HTML image by changing the src (source) attribute of an tag:</pre>
+							<pre><h2>JavaScript Can Change HTML Styles (CSS)</h2>Changing the style of an HTML element, is a variant of changing an HTML attribute:<h2>Example</h2>document.getElementById("demo").style.fontSize = "35px";
+or
+document.getElementById('demo').style.fontSize = '35px';<h2>JavaScript Can Hide HTML Elements</h2>Hiding HTML elements can be done by changing the display style:<h2>Example</h2>document.getElementById("demo").style.display = "none";
+or
+document.getElementById('demo').style.display = 'none';<h2>JavaScript Can Show HTML Elements</h2>Showing hidden HTML elements can also be done by changing the display style:<h2>Example</h2>document.getElementById("demo").style.display = "block";
+or document.getElementById('demo').style.display = 'block';</pre>
+						</div>
+					</div>
+					<div id="for" class="loop-for">
+						<div class="loop-for-header">
+							<h2>JS Loop For</h2>
+						</div>
+						<div class="loop-for-page">
+							<pre>JavaScript For Loop
+Loops can execute a block of code a number of times.
+JavaScript Loops
+Loops are handy, if you want to run the same code over and over again, each time with a different value.
+Often this is the case when working with arrays:
+Instead of writing:
+text += cars[0] + "
+";
+text += cars[1] + "
+";
+text += cars[2] + "
+";
+text += cars[3] + "
+";
+text += cars[4] + "
+";
+text += cars[5] + "
+";
+You can write:
+var i;
+for (i = 0; i &lt; cars.length&#59; i++) {
+text += cars[i] + "
+";
+}
+Different Kinds of Loops
+JavaScript supports different kinds of loops:
+for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
+The For Loop
+The for loop is often the tool you will use when you want to create a loop.
+The for loop has the following syntax:
+for (statement 1; statement 2; statement 3) {
+code block to be executed
+}
+Statement 1 is executed before the loop (the code block) starts.
+Statement 2 defines the condition for running the loop (the code block).
+Statement 3 is executed each time after the loop (the code block) has been executed.
+Example
+for (i = 0; i &lt; 5; i++) {
+text += "The number is " + i + "
+";
+}
+From the example above, you can read:
+Statement 1 sets a variable before the loop starts (var i = 0).
+Statement 2 defines the condition for the loop to run (i must be less than 5).
+Statement 3 increases a value (i++) each time the code block in the loop has been executed.
+Statement 1
+Normally you will use statement 1 to initialize the variable used in the loop (i = 0).
+This is not always the case, JavaScript doesn't care. Statement 1 is optional.
+You can initiate many values in statement 1 (separated by comma):
+Example
+for (i = 0, len = cars.length, text = ""; i &lt; len; i++) {
+text += cars[i] + "
+";
+}
+And you can omit statement 1 (like when your values are set before the loop starts):
+Example
+var i = 2;
+var len = cars.length;
+var text = "";
+for (; i &lt; len; i++) {
+text += cars[i] + "
+";
+}
+Statement 2
+Often statement 2 is used to evaluate the condition of the initial variable.
+This is not always the case, JavaScript doesn't care. Statement 2 is also optional.
+If statement 2 returns true, the loop will start over again, if it returns false, the loop will end.
+If you omit statement 2, you must provide a break inside the loop. Otherwise the loop will never end.
+Statement 3
+Often statement 3 increments the value of the initial variable.
+This is not always the case, JavaScript doesn't care, and statement 3 is optional.
+Statement 3 can do anything like negative increment (i--), positive increment (i = i + 15), or anything else.
+Statement 3 can also be omitted (like when you increment your values inside the loop):
+Example
+var i = 0;
+var len = cars.length;
+for (; i &lt; len; ) {
+text += cars[i] + "
+";
+i++;
+}
+The For/In Loop
+The JavaScript for/in statement loops through the properties of an object:
+Example
+var person = {fname:"John", lname:"Doe", age:25};
+var text = "";
+var x;
+for (x in person) {
+text += person[x];
+}
+The While Loop
+The while loop and the do/while loop will be explained in the next chapter.</pre>
+						</div>
+					</div>
+					<div id="while" class="loop-while">
+						<div class="loop-while-header">
+							<h2>Js Loop While</h2>
+						</div>
+						<div class="loop-while-page">
+							<pre>JavaScript While Loop
+Loops can execute a block of code as long as a specified condition is true.
+The While Loop
+The while loop loops through a block of code as long as a specified condition is true.
+Syntax
+while (condition) {
+code block to be executed
+}
+Example
+In the following example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10:
+Example
+while (i &lt; 10) {
+text += "The number is " + i;
+i++;
+}
+If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.
+The Do/While Loop
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+Syntax
+do {
+code block to be executed
+}
+while (condition);
+Example
+The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, because the<br>code block is executed before the condition is tested:
+Example
+do {
+text += "The number is " + i;
+i++;
+}
+while (i &lt; 10);
+Do not forget to increase the variable used in the condition, otherwise the loop will never end!
+Comparing For and While
+If you have read the previous chapter, about the for loop, you will discover that a while loop is much the same as a for loop, with<br>statement 1 and statement 3 omitted.
+The loop in this example uses a for loop to collect the car names from the cars array:
+Example
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var i = 0;
+var text = "";
+for (;cars[i];) {
+text += cars[i] + "
+";
+i++;
+}
+The loop in this example uses a while loop to collect the car names from the cars array:
+Example
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var i = 0;
+var text = "";
+while (cars[i]) {
+text += cars[i] + "
+";
+i++;
+}</pre>
+						</div>
+					</div>
+					<div class="next">
+						<a href="JS 2.html">
+							<pre style="margin-top: 7px;">Next</pre>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div style="background-image: url(img/background.jpg);width: 100%;height: 230px;margin-top: 30px;clear: both;">
+			<div class="container">
+				<div style="margin-left: 480px;height: auto;">
+					<a href="http://www.Facebook.com" style="text-decoration: none;">
+						<img src="img/Facebook.png" alt="Facebook" style="width: 60px;height: 60px;margin-right: 20px;margin-top: 60px;">
+					</a>
+					<a href="http://www.youtube.com" style="text-decoration: none;">
+						<img src="img/Youtube.png" alt="Youtube" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.instagram.com" style="text-decoration: none;">
+						<img src="img/Instagram.png" alt="Instagram" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.twitter.com" style="text-decoration: none;">
+						<img src="img/Twitter.png" alt="Twitter" style="width: 60px;height: 60px;">
+					</a>
+				</div>
+				<div style="margin-top: 50px;margin-left: 410px;">
+					<a href="#" style="text-decoration: none;margin: 20px;color: #fff;">HOME</a>
+					<a href="Courses.html" style="text-decoration: none;margin: 20px;color: #fff;">COURSES</a>
+					<a href="Contact Us.htm" style="text-decoration: none;margin: 20px;color: #fff;">CONTACT US!</a>
+					<a href="about.html" style="text-decoration: none;margin: 20px;color: #fff;">ABOUT</a>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%;background-color: #f6b541;display: inline-block; height: 50px;text-align: center;">
+			<div class="container">
+				<pre style="font-size: 20px;margin-top: 15px;margin-bottom: -8px;">&copy;2018 MAS. All rights reserved.</pre>
+			</div>
+		</div>
+	</body>
+</html>

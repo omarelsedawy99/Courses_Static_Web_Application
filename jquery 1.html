@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>jquery lesson</title>  
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/jquery 1.css">    
+	</head>
+	<body>
+		<!-- start header -->
+		<div class="main_header">
+			<div class="container">
+				<div class="LR">
+					<a class="nav_bar_e3" href="Registeration.html">REGISTERATION</a>
+					<a class="nav_bar_e3" href="login.html">LOGIN</a>
+				</div>
+				<div class="nav-element">
+					<a class="nav_bar_e2" href="Home.html">HOME</a>
+					<a class="nav_bar_e1" href="Courses.html">COURSES</a>
+					<a class="nav_bar_e2" href="about.html">ABOUT</a>
+					<a class="nav_bar_e2" href="Contact Us.htm">CONTACT US!</a>
+				</div>
+				<div style="clear:both;">
+					<img src="img/Logo.png" alt="Learning" title="Logo" style="width:390px;height:250px;margin-top:60px;">
+				</div>
+				<div class="nav">
+					<a class="nav_bar_e4" style="margin-left: 30px;" href="HTML 1.html">HTML</a>
+					<a class="nav_bar_e4" href="Css 1.html">CSS</a>
+					<a class="nav_bar_e4" href="JS 1.html">JavaScript</a>
+					<a class="nav_bar_e5" style="color: #f6b541;" href="#">JQuery</a>
+				</div>
+			</div>
+		</div>
+		<!-- End the header -->    
+		<div class="container">
+			<div class="navbar">
+				<ul>
+					<li><a class="active" href="jquery 1.html">Lesson 1</a></li>
+					<li><a href="jquery 2.html" >Lesson 2</a></li>
+					<li><a href="#">Lesson 3</a></li>
+				</ul>    
+			</div> 
+			<!-- end of navbar -->
+			<div class="content">
+				<div  class="part">
+					<div class="toppart">
+						<div id="first1" >
+							<h1>jQuery Introduction</h1>
+							<h2>What is jQuery?</h2>
+							<p>jQuery is a lightweight, "write less, do more", JavaScript library.</p>
+							<p>The purpose of jQuery is to make it much easier to use JavaScript on your website.</p>
+							<p>
+								jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+							</p>
+							<p style="margin-bottom: 20px;">
+								jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+							</p>
+							<p>
+								The jQuery library contains the following features:( HTML/DOM manipulation , CSS manipulation , HTML event methods , Effects and animations , AJAX , Utilities )
+							</p>
+						</div>
+						<div id="third1" style="display: none">
+							<h1>The Document Ready Event</h1>
+							<p><span>$(document).ready(function(){<br>// jQuery methods go here...<br>});</span></p>
+							<p>This is to prevent any jQuery code from running before the document is finished loading (is ready).</p>
+							<p>
+								It is good practice to wait for the document to be fully loaded and ready before working with it. This also allows you to have your JavaScript code before the body of your document, in the head section.
+							</p>
+						</div>
+					<div id="second1" style="display: none">
+						<h1>jQuery Syntax</h1>
+						<p>The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s).</p>
+						<p>Basic syntax is: $(selector).action()</p>
+						<ul>
+							<li>A $ sign to define/access jQuery</li>
+							<li>A (selector) to "query (or find)" HTML elements</li>
+							<li>A jQuery action() to be performed on the element(s)</li>
+						</ul>
+						<h2>Examples</h2>
+						<p>$(".test").hide() - hides all elements with class="test".</p>
+						<p>$("#test").hide() - hides the element with id="test".</p>
+					</div>
+				</div>
+				<div class="bottompart">
+					<ul class="changing">
+						<li class="list"><a href="javascript:change1()"><button id="next1_part1">1</button></a></li>
+						<li class="list"><a href="javascript:change2()"><button id="next2_part1">2</button></a></li>
+						<li class="list"><a href="javascript:change3()"><button id="next3_part1">3</button></a></li>    
+					</ul>
+				</div>
+			</div>
+			<!-- End The part div -->      
+			<div class="part">
+			<div class="toppart">
+			<div id="first2" >
+			<h1>jQuery Selectors</h1>
+			<p>jQuery selectors allow you to select and manipulate HTML element(s).</p>
+			<p>
+				jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.
+			</p>
+			<p>All selectors in jQuery start with the dollar sign and parentheses: $().</p>
+			<h2>The element Selector</h2>
+			<p>The jQuery element selector selects elements based on the element name.You can select all &lt; p &gt; elements on a page like this: <span> $("p") </span> </p>
+		</div>
+			<div id="second2" style="display: none">
+			<h2>The #id Selector</h2> 
+			<p>The jQuery #id selector uses the id attribute of an HTML tag to find the specific element.</p>
+			<p>An id should be unique within a page, so you should use the #id selector when you want to find a single, unique element</p>
+			<p>To find an element with a specific id, write a hash character, followed by the id of the HTML element:<span>$("#test")</span></p>
+			<p><span>$(document).ready(function(){<br>$("button").click(function(){<br>$("#test").hide();<br>});<br>});</span></p>
+		</div>
+			<div id="third2" style="display: none">
+			<h2>The .class Selector</h2>
+			<p>The jQuery class selector finds elements with a specific class.</p>    
+			<p>To find elements with a specific class, write a period character, followed by the name of the class:<span>$(".test")</span></p> 
+			<p><span>$(document).ready(function(){<br>$("button").click(function(){<br>$(".test").hide();<br>});<br>});</span></p>    
+		</div>
+			</div>
+			<!-- End the part div -->
+			<div class="bottompart">
+			<ul class="changing">
+				<li class="list"><a href="javascript:change4()"> <button id="next1_part2">1</button></a></li>
+				<li class="list"><a href="javascript:change5()"> <button id="next2_part2">2</button></a></li>
+				<li class="list"><a href="javascript:change6()"> <button id="next3_part2">3</button></a></li>    
+			</ul>
+		</div>
+		</div>
+			<!-- End the part div -->
+			<div class="part">
+				<div class="toppart">
+					<div id="first3" > 
+						<h1>jQuery Event Methods</h1>
+						<p>All the different visitor's actions that a web page can respond to are called events.</p>
+						<p>An event represents the precise moment when something happens.</p>
+						<h3>Examples :</h3>
+							<ul>
+								<li>moving a mouse over an element</li>
+								<li>selecting a radio button</li>
+							<li>clicking on an element</li>
+							</ul>
+						<p>The term "fires/fired" is often used with events. Example: "The keypress event is fired, the moment you press a key".</p>
+					</div>
+					<div id="second3" style="display: none">
+						<h2>jQuery Syntax For Event Methods</h2> 
+						<p>In jQuery, most DOM events have an equivalent jQuery method.</p>
+						<p>To assign a click event to all paragraphs on a page, you can do this:<span>$("p").click();</span></p>
+						<p>The next step is to define what should happen when the event fires. You must pass a function to the event:<span>$("p").click(function(){<br>// action goes here!!<br>});</span></p>
+					</div>
+					<div id="third3" style="display: none">
+						<h2>Commonly Used jQuery Event Methods</h2>
+						<h3>$(document).ready()</h3>
+						<p>The $(document).ready() method allows us to execute a function when the document is fully loaded. This event is already explained in the jQuery Syntax chapter.</p>
+						<h3>click()</h3>
+						<p>The click() method attaches an event handler function to an HTML element.</p>
+						<h3>dblclick()</h3>
+						<p>The dblclick() method attaches an event handler function to an HTML element.</p>
+						<h3>mouseenter()</h3>
+						<p>The mouseenter() method attaches an event handler function to an HTML element.</p>
+					</div>
+				</div>
+				<div class="bottompart">
+					<ul class="changing">
+						<li class="list"><a href="javascript:change7()"><button id="next1_part3">1</button></a></li>
+						<li class="list"><a href="javascript:change8()"><button id="next2_part3">2</button></a></li>
+						<li class="list"><a href="javascript:change9()"><button id="next3_part3">3</button></a></li>    
+					</ul>
+				</div>
+			</div>
+			<!-- End part div -->
+		</div>
+			<!-- End content div -->
+		</div>
+		<!-- The end of container div -->
+		<!-- start footer --> 
+		<div style="background-image: url(img/background.jpg);width: 100%;height: 230px;margin-top: 30px;clear: both;">
+			<div class="container">
+				<div style="margin-left: 480px;height: auto;">
+					<a href="http://www.Facebook.com" style="text-decoration: none;">
+						<img src="img/Facebook.png" alt="Facebook" style="width: 60px;height: 60px;margin-right: 20px;margin-top: 60px;">
+					</a>
+					<a href="http://www.youtube.com" style="text-decoration: none;">
+						<img src="img/Youtube.png" alt="Youtube" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.instagram.com" style="text-decoration: none;">
+						<img src="img/Instagram.png" alt="Instagram" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.twitter.com" style="text-decoration: none;">
+						<img src="img/Twitter.png" alt="Twitter" style="width: 60px;height: 60px;">
+					</a>
+				</div>
+				<div style="margin-top: 50px;margin-left: 410px;">
+					<a href="home.html" style="text-decoration: none;margin: 20px;color: #fff;">HOME</a>
+					<a href="Courses.html" style="text-decoration: none;margin: 20px;color: #fff;">COURSES</a>
+					<a href="Contact Us.htm" style="text-decoration: none;margin: 20px;color: #fff;">CONTACT US!</a>
+					<a href="about.html" style="text-decoration: none;margin: 20px;color: #fff;">ABOUT</a>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%;background-color: #f6b541;display: inline-block; height: 50px;text-align: center;">
+			<div class="container">
+				<pre style="font-size: 20px;margin-top: 15px;">&copy;2018 MAS. All rights reserved.</pre>
+			</div>
+		</div>
+		<!-- End Footer -->
+		<script src="JS/jquery 1.js"></script>    
+	</body>    
+</html>

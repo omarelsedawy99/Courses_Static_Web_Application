@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/Java 1.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" href="../img/unnamed.png">
+		<title>Java Basics</title>
+	</head>
+	<body>
+		<div class="main_header">
+			<div class="container">
+				<div class="LR">
+					<a class="nav_bar_e3" href="Registeration.html">REGISTERATION</a>
+					<a class="nav_bar_e3" href="login.html">LOGIN</a>
+				</div>
+				<div class="nav-element">
+					<a class="nav_bar_e2" href="Home.html">HOME</a>
+					<a class="nav_bar_e1" href="Courses.html">COURSES</a>
+					<a class="nav_bar_e2" href="about.html">ABOUT</a>
+					<a class="nav_bar_e2" href="Contact Us.htm">CONTACT US!</a>
+				</div>
+				<div style="clear:both;">
+					<img src="img/Logo.png" alt="Learning" title="Logo" style="width:390px;height:250px;margin-top:60px;">
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div class="container">
+				<div id="syntax">
+					<h1>Basic Syntax</h1>
+					<p>When we consider a Java program, it can be defined as a collection of objects that communicate via invoking each other's methods. Let us now briefly look into what do class, object, methods, and instance variables mean.</p>
+					<ul>
+						<li><b>Object </b>− Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behavior such as wagging their tail, barking, eating. An object is an instance of a class.</li>
+						<li><b>Class </b>− A class can be defined as a template/blueprint that describes the behavior/state that the object of its type supports.</li>
+						<li><b>Methods </b>− A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.</li>
+						<li><b>Instance Variables </b>− Each object has its unique set of instance variables. An object's state is created by the values assigned to these instance variables.</li>
+					</ul>
+						<h2>First Java Program</h2>
+						<p>Let us look at a simple code that will print the words <b>Hello World.</b></p>
+						<h3>Example</h3>
+						<div class="ex">
+							<pre>public class MyFirstJavaProgram {
+
+   /* This is my first java program.
+    * This will print 'Hello World' as the output
+    */
+
+   public static void main(String []args) {
+      System.out.println("Hello World"); // prints Hello World
+   }
+}</pre>
+						</div>
+						<!--Img for video 1-->
+						<img src="img/java01.jpg" id="video1" width="1300px;" height="700px;" onClick="showSyntaxModal()" title="video/Video 1.mp4">
+				</div>
+				<div id="object">
+					<h1>Object and Classes</h1>
+					<p>Java is an Object-Oriented Language. As a language that has the Object-Oriented feature, Java supports the following fundamental concepts −</p>
+					<ul>
+						<li>Polymorphism</li>
+						<li>Inheritance</li>
+						<li>Encapsulation</li>
+						<li>Abstraction</li>
+						<li>Classes</li>
+						<li>Objects</li>
+						<li>Instance</li>
+						<li>Method</li>
+						<li>Message Parsing</li>
+					</ul>
+						<h2>Objects in Java</h2>
+						<p>Let us now look deep into what are objects. If we consider the real-world, we can find many objects around us, cars, dogs, humans, etc. All these objects have a state and a behavior.</p>
+						<p>If we consider a dog, then its state is - name, breed, color, and the behavior is - barking, wagging the tail, running.</p>
+						<p>If you compare the software object with a real-world object, they have very similar characteristics.</p>
+						<p>Software objects also have a state and a behavior. A software object's state is stored in fields and behavior is shown via methods.</p>
+						<h2>Classes in Java</h2>
+						<p>A class is a blueprint from which individual objects are created.</p>
+						<h3>Example</h3>
+						<div class="ex">
+							<pre>public class Dog {
+   String breed;
+   int age;
+   String color;
+
+   void barking() {
+   }
+
+   void hungry() {
+   }
+
+   void sleeping() {
+   }
+}</pre>
+						</div>
+						<!--Img for video 2-->
+						<img src="img/java02.jpg" id="video2" width="1300px;" height="700px;" onClick="showObjectModal()" title="video/Video 2.mp4">
+				</div>
+				<div id="data">
+					<h1>Basic Datatypes</h1>
+					<p>Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in the memory.</p>
+					<p>Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals, or characters in these variables.</p>
+					<p>There are two data types available in Java −</p>
+					<ul>
+						<li>Primitive Data Types</li>
+						<li>Reference/Object Data Types</li>
+					</ul>
+						<h2>Primitive Data Types</h2>
+						<p>There are eight primitive datatypes supported by Java. Primitive datatypes are predefined by the language and named by a keyword. Let us now look into the eight primitive data types in detail.</p>
+						<h2>Java Literals</h2>
+						<p>A literal is a source code representation of a fixed value. They are represented directly in the code without any computation.</p>
+						<h3>Example</h3>
+						<div class="ex">
+							<pre>"Hello World"
+"two\nlines"
+"\"This is in quotes\""}</pre>
+						</div>
+						<!--Img for video 2-->
+						<img src="img/java03.jpg" width="1300px;" height="700px;" onClick="showDataModal()" id="video3" title="video/Video 3.mp4">
+				</div>
+			</div>
+			<input type="button" value="" id="next1" class="next" title="Object and Classes" onclick="next1()">
+			<input type="button" value="" class="previous" id="previous1" title="Basic Syntax" onclick="previous1()" style="display: none;">
+			<input type="button" value="" class="previous" id="previous2" title="Basic Syntax" onclick="next1()" style="display: none;">
+			<input type="button" value="" id="next2" class="next" title="DataTypes" onclick="next2()" style="display: none;">
+		</div>
+		<a id="next_topic" href="Java 2.html">Next</a>
+		<div id="syntax-modal">
+			<span class="close" onClick="hideModal()">&times;</span>
+			<video id="video" controls><source src="video/Video 1.mp4"></video>	
+		</div>
+		<div style="background-image: url(img/background.jpg);width: 100%;height: 230px;margin-top: 30px;clear: both;">
+			<div class="container">
+				<div style="margin-left: 480px;height: auto;">
+					<a href="http://www.Facebook.com" style="text-decoration: none;">
+						<img src="img/Facebook.png" alt="Facebook" style="width: 60px;height: 60px;margin-right: 20px;margin-top: 60px;">
+					</a>
+					<a href="http://www.youtube.com" style="text-decoration: none;">
+						<img src="img/Youtube.png" alt="Youtube" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.instagram.com" style="text-decoration: none;">
+						<img src="img/Instagram.png" alt="Instagram" style="width: 60px;height: 60px;margin-right: 20px;">
+					</a>
+					<a href="http://www.twitter.com" style="text-decoration: none;">
+						<img src="img/Twitter.png" alt="Twitter" style="width: 60px;height: 60px;">
+					</a>
+				</div>
+				<div style="margin-top: 50px;margin-left: 410px;">
+					<a href="Home.html" style="text-decoration: none;margin: 20px;color: #fff;">HOME</a>
+					<a href="Courses.html" style="text-decoration: none;margin: 20px;color: #fff;">COURSES</a>
+					<a href="Contact Us.htm" style="text-decoration: none;margin: 20px;color: #fff;">CONTACT US!</a>
+					<a href="about.html" style="text-decoration: none;margin: 20px;color: #fff;">ABOUT</a>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%;background-color: #f6b541;display: inline-block; height: 50px;text-align: center;">
+			<div class="container">
+				<pre style="font-size: 20px;margin-top: 15px;margin-bottom: -8px;">&copy;2018 MAS. All rights reserved.</pre>
+			</div>
+		</div>
+		<script src="JS/Java 1.js"></script>
+	</body>
+</html>
